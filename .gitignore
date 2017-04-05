@@ -35,3 +35,15 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+node_modules/
+bower_components/
+dist/
+temp/
+uploads/
+.idea/
+.idea/workspace.xml
+coverage
+.env
+npm-debug.log
+keyfile.json
