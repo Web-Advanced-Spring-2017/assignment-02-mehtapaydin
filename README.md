@@ -2,38 +2,41 @@
 
 **RESTful Project**
 
-**Due Date: Week 11 - Midnight of 4/5/2017**
-
-## :star2: [Accept Assignment](https://classroom.github.com/assignment-invitations/36e19048eb7663ae1786db6d71333cef)
-
 ## Assignment Specification
 Develop a small project using a RESTful API of your own choice. 
 You may combine two or more APIs if you need to.
 *The only minimum requirement is to demonstrate usage at least 5 different API requests*
 
-[See Starter Code Here](https://github.com/Web-Advanced-Spring-2017/wiki/tree/master/starter-code)
-
-Some of the APIs to look into:
-* [The Big List of Public APIs](https://github.com/toddmotto/public-apis)
-* [Another 300 public APIs](https://any-api.com/)
-
-You may use this as your golden source to dive deeper into publically available services that you can utilize for your upcoming projects.
-
-Projects for inspiration
-* [Data Visualizations](http://flowingdata.com/)
-* [Bot: Moth Generator](https://twitter.com/mothgenerator)
-* [Generative Visuals](https://mattdesl.svbtle.com/generative-art-with-nodejs-and-canvas)
-* [NASA's Data Portal](https://data.nasa.gov/developer)
-* [NYC Open Data](http://opendata.cityofnewyork.us/)
-* [Cyclone.js for IOT Projects](https://cylonjs.com/)
+## Projects for inspiration
+* Giorgio Cam (Google AI Experiments) https://aiexperiments.withgoogle.com/giorgio-cam
+* Thing translator (Google AI Experiments) https://aiexperiments.withgoogle.com/thing-translator
 
 ## Submission Details
-All the submission must be done through github to our [class organization](https://github.com/Web-Advanced-Spring-2017). The assignment will be accomodated and distributed using [GitHub Classroom](https://classroom.github.com/). GitHub classroom will automatically create a repository in our organization for each student and will grant administrative rights of that repository to that student.    
-All students **MUST** visit this url: [Confirmation Link](https://classroom.github.com/assignment-invitations/36e19048eb7663ae1786db6d71333cef). There you will be asked to accept and confirm the reception of the Assignment and consequently a repository will be automatically created for you under our organization. The name of your repository will follow the following pattern: `assignment-02-${your GitHub username}`.
+By using Google Vision API I tried to create a simple web app which can be used to analyze ‘labels', 'text', 'faces’ on a given image and with the help of Google Translate API I translate the detected text on the image from English to Spanish. 
 
-In your own new assignment respository `https://github.com/Web-Advanced-Spring-2017/assignment-02-${your username}`, go on and delete README.md and replace it with the readme of your choice.    
+## Screens
+![Reference Screens](img/meme0.png)
+![Reference Screens](img/meme1.png)
+![Reference Screens](img/meme2.png)
 
-The assignments must be functional upon submission. The code should be well commented and self-explanatory. All references must be properly cited. Document your submission in the `readme.md`
+## Running
+- $> npm install
+- $> bower install
+- $> npm start
+- you should put your apikey to inside of .env file (no need to set in the code)
+- you should put your keyfile.json file
+- localhost:8080/upload page is for uploading a photo
+
+
+## My Resources
+* Node.js essential training https://www.lynda.com/Node-js-tutorials/Node-js-Essential-Training/417077-2.html
+* Google Cloud SDK https://cloud.google.com/sdk/docs/initializing
+* Google Cloud Vision API Documentation https://cloud.google.com/vision/docs/quickstart#set_up_a_google_cloud_vision_api_project
+* Google Translator API Documentation https://cloud.google.com/translate/docs/
+* Google Vision API Tutorials https://cloud.google.com/vision/docs/tutorials
+* Using Cloud Vision API with Node.js https://codelabs.developers.google.com/codelabs/cloud-vision-nodejs/index.html?index=..%2F..%2Findex#1
+* Using Cloud Vision API with Node.js over a project https://medium.com/google-cloud/using-the-google-cloud-vision-api-with-node-js-194e507afbd8
+* Google’s Cloud Vision API is Fun, Says a Girl Who Used to Sell Clothes in Tokyo https://blog.chibicode.com/googles-cloud-vision-api-is-fun-says-a-girl-who-used-to-sell-clothes-in-tokyo-b31bd4b2a9f4
 
 
 ## Resources

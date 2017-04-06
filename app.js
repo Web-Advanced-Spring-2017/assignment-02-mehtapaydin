@@ -153,7 +153,7 @@ app.post('/uploadPhoto', uploadDestination.single('image'), function(req, res, n
             res.write('<!DOCTYPE HTML><html><body>');
 
             // Base64 the image so we can display it on the page
-            res.write('<img width=200 src="' + base64Image(req.file.path) + '"><br>');
+            res.write('<img width=640 src="' + base64Image(req.file.path) + '"><br>');
 
             // Write out the JSON output of the Vision API
             //res.write(JSON.stringify(detections, null, 4));
@@ -170,8 +170,8 @@ app.post('/uploadPhoto', uploadDestination.single('image'), function(req, res, n
                 var translatedText = returnedData.data.translations[0].translatedText
                 console.log('translatedText: ' + translatedText);
                 // you can return only the translatedText, we are returning all of them.
-                res.write('\nlabels:'+ detections.labels);
-                res.write('\ntranslatedText:'+ translatedText);
+                res.write('labels:'+ detections.labels + '</b>');
+                res.write('translatedText:'+ translatedText + '</b>');
                 res.end('</body></html>');
 
             });
