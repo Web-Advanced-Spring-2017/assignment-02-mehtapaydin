@@ -12,7 +12,10 @@ You may combine two or more APIs if you need to.
 * Thing translator (Google AI Experiments) https://aiexperiments.withgoogle.com/thing-translator
 
 ## Submission Details
-By using Google Vision API I tried to create a simple web app which can be used to analyze ‘labels', 'text', 'faces’ on a given image and with the help of Google Translate API I translate the detected text on the image from English to Spanish. 
+By using Google Vision API I tried to create a simple web app which can be used to analyze ‘labels', 'text', 'faces’ on a given image and with the help of Google Translate API I translate the detected text on the image from English to Spanish. To be able to upload image I am using Multer and Morgan dependencies.
+Notes for myself: 
+* Morgan is basically a logger, on any requests being made,it generates logs automatically. 
+* Multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
 
 ## Screens
 ![Reference Screens](img/meme0.png)
@@ -37,6 +40,7 @@ By using Google Vision API I tried to create a simple web app which can be used 
 * Using Cloud Vision API with Node.js https://codelabs.developers.google.com/codelabs/cloud-vision-nodejs/index.html?index=..%2F..%2Findex#1
 * Using Cloud Vision API with Node.js over a project https://medium.com/google-cloud/using-the-google-cloud-vision-api-with-node-js-194e507afbd8
 * Google’s Cloud Vision API is Fun, Says a Girl Who Used to Sell Clothes in Tokyo https://blog.chibicode.com/googles-cloud-vision-api-is-fun-says-a-girl-who-used-to-sell-clothes-in-tokyo-b31bd4b2a9f4
+* GoogleCloudPlatform/nodejs-docs-samples https://github.com/GoogleCloudPlatform/nodejs-docs-samples
 
 
 ## Resources
